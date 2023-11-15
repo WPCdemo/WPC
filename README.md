@@ -1,5 +1,3 @@
-![image](https://github.com/WPCdemo/WPC/assets/126042536/ab8fa16f-93f6-4816-ac19-105ee69979ed)Thanks for your attention. The following instructions can help you reproduce the experiments.
-
 # Environment
 conda env create -f environments.yaml
 
