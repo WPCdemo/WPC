@@ -9,6 +9,7 @@ import logging
 import sys
 from torch_scatter import scatter_add
 
+
 # LT dataset from GraphENS
 def make_longtailed_data_remove(edge_index, label, n_data, n_cls, ratio, train_mask):
     n_data = torch.tensor(n_data)
