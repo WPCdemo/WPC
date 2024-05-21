@@ -15,7 +15,6 @@ from torch.autograd import Variable
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 
-
 def get_proto_embedding(adj, proto_model, spt_idx_list, embeddings, degree_list=None):
     for i, spt_idx in enumerate(spt_idx_list):
         spt_embedding_i = embeddings[spt_idx]
