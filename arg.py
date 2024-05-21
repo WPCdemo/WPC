@@ -6,6 +6,7 @@ def str2bool(s):
         raise ValueError('Not a valid boolean string')
     return (s == 'True') or (s == 'true')
 
+
 def get_parser():
     parser = argparse.ArgumentParser()
 #     parser.add_argument('--baseline', action='store_true', default=False, help="Run")
