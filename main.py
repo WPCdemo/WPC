@@ -16,5 +16,6 @@ def main():
     print("Optimization Finished!")
     print("Total time elapsed: {:.4f}s".format(time.time() - t_total))
 
+
 if __name__ == '__main__':
     main()
