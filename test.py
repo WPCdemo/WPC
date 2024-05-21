@@ -3,6 +3,7 @@ import arg
 import os
 os.environ['MPLCONFIGDIR'] = os.getcwd() + "/configs/"
 
+
 def main():
     parser = arg.get_parser()
     args = parser.parse_args()
