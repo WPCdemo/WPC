@@ -1,6 +1,5 @@
 import argparse
 
-
 def str2bool(s):
     if s not in {'False', 'True', 'false', 'true'}:
         raise ValueError('Not a valid boolean string')
