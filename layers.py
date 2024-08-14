@@ -7,7 +7,6 @@ from torch.nn.modules.module import Module
 import torch_sparse
 from torch_scatter import scatter_max, scatter_add
 
-
 class GraphConv(Module):
     """
     Simple GCN layer, similar to https://arxiv.org/abs/1609.02907
