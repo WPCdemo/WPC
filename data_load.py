@@ -10,6 +10,7 @@ from torch_geometric.utils.loop import add_self_loops, remove_self_loops
 from torch_geometric.datasets import Planetoid, Coauthor, Amazon, WikiCS, CitationFull, Actor
 
 
+
 def decide_config(root, dataset):
     """
     Create a configuration to download datasets
