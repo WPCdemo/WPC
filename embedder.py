@@ -5,6 +5,7 @@ import data_load
 import utils
 from torch_geometric.utils.loop import add_self_loops, remove_self_loops
 
+
 class embedder:
     def __init__(self, args):
         if args.gpu == 'cpu':
