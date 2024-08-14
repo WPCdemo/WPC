@@ -1,7 +1,6 @@
 # Environment
 conda env create -f environments.yaml
 
-
 # Files
 - **args.py**: define command line arguments
 - **data_load.py**: load and process data
