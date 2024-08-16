@@ -22,5 +22,3 @@ python main.py --embedder wpc --dataset citeseer --im_class_num 3
 python main.py --embedder wpc --dataset wikics --im_class_num 3
 ## For Pubmed dataset
 python main.py --embedder wpc --dataset pubmed --im_class_num 1
-
-# Ablation Study
