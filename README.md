@@ -1,6 +1,9 @@
 # Environment
 conda env create -f environments.yaml
 
+# Platfrom
+Our experiments are conducted on a platform with NVIDIA GeForce RTX 3090.
+
 # Files
 - **args.py**: define command line arguments
 - **data_load.py**: load and process data
@@ -19,3 +22,5 @@ python main.py --embedder wpc --dataset citeseer --im_class_num 3
 python main.py --embedder wpc --dataset wikics --im_class_num 3
 ## For Pubmed dataset
 python main.py --embedder wpc --dataset pubmed --im_class_num 1
+
+# Ablation Study
